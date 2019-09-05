@@ -67,3 +67,7 @@ input[type="submit"]{
     border-radius: 5px;
     background-color: rgb(143, 129, 101);
 }
+textarea:focus:invalid{
+    border: 5px solid red;
+    background-color: burlywood;
+}
